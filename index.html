@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header__inner">
+            <a href="#" class="logo">Shivangi</a>
+            <nav>
+                <!-- <div class="toggle"></div> -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projects">My Work</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+            </nav>
+        </div>   
+    </header>
+    <section class="banner">
+        <div class="banner__inner">
+        <div class="banner__img">
+            <div class="banner__img-inner"><img src="./images/bg3.png" /></div>
+        </div>
+        <div class="textbx">
+            <h2><span>Passionate<br/></span> Web <span>Developer</span></h2>
+            <h3>Love to learn and explore the world  of web development</h3>
+            <a href="#" class="hero-btn">Work with me</a>
+            <a href="#projects" class="hero-btn-2">My Work</a>
+        </div>
+        </div>
+    </section>
+        <section id="projects">
+            <div class="projects__inner">
+                <h2 class="section-heading" data-outline="Projects">My&nbsp;<span>Work</span></h2>
+                <ul class="projects__list">
+                    <li class="projects__list-item">
+                        <div class="projects__list-item__inner">
+                            <h3>Admin Panel</h3>
+                            <p>React admin panel to update the content on a education based website </p>
+                            <a href="#" class="projects__list-item__btn"><img src="./images/github.png" alt="">Github</a>
+                        </div> 
+                    </li>
+                    <li class="projects__list-item">
+                        <div class="projects__list-item__inner">
+                            <h3>Admin Panel</h3>
+                            <p>React admin panel to update the content on a education based website </p>
+                            <a href="#" class="projects__list-item__btn"><img src="./images/github.png" alt=""> Github</a>
+                        </div> 
+                    </li>
+                    <li class="projects__list-item">
+                        <div class="projects__list-item__inner">
+                            <h3>Admin Panel</h3>
+                            <p>React admin panel to update the content on a education based website </p>
+                            <a href="#" class="projects__list-item__btn"><img src="./images/github.png" alt=""> Github</a>
+                        </div> 
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="skills__inner">
+                <h2 class="section-heading" data-outline="Projects">My&nbsp;<span>Skills</span></h2>
+                <ul class="skills__list">
+                    <li class="skills__list-item">
+                        <img src="./images/html.png" alt="html">
+                        <div class="skill-label">HTML</div>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./images/css.png" alt="css">
+                        <div class="skill-label">CSS</div>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./images/bootstrap.png" alt="bootstrap">
+                        <div class="skill-label">Bootstrap</div>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./images/figma.png" alt="figma">
+                        <div class="skill-label">Figma</div>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./images/sass.png" alt="sass">
+                        <div class="skill-label">sass</div>
+                    </li>
+                    <li class="skills__list-item">
+                        <img src="./images/js.png" alt="js">
+                        <div class="skill-label">JavaScript</div>
+                    </li>
+                </ul>
+
+                
+            </div>
+        </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', windowscrollY > 0);
+        });
+    </script>
+</body>
+</html>
